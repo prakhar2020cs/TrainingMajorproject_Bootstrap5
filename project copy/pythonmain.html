@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>python details </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: whitesmoke;">
+<div class="container-fluid">
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CRC TRAINING </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="homepage.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#courses">COURSES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#internship">INTERNSHIPS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="signin project.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SIGN IN 
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="login.html">login </a></li>
+                <li><a class="dropdown-item" href="registration.html">register</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+          </ul>
+            <h3 class="nav-link" id="MyClockDisplay" onload="showTime()"></h3>
+
+        </div>
+      </div>
+    </nav>
+<!--nav bar end--><br>
+
+  <!--banner-->
+  <div id="banner" class="banner" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/python logo.jpg" class="d-block w-100" alt="python" height="500px" width="40px">>
+        <div class="carousel-caption d-none d-md-block">
+          <h2 style="text-align: left; color:rgb(19, 18, 18);">
+            Python Certification Course</h2>
+          <a class="btn btn-primary" href="registration.html" role="button" style="text-align: left;">enroll now </a>
+              <a class="btn btn-primary" href="#contact" role="button" style="text-align: left;">contact us </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--duration table-->
+    <div class="row">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">starts from </th>
+                    <th scope="col">mode </th>
+                    <th scope="col">no. of students enrolled</th>
+                    <th scope="col">fees</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">21st july 2023</th>
+                    <td>offline</td>
+                    <td>50</td>
+                    <td>free</td>
+                  </tr>
+                </tbody>
+            </table>
+    </div>
+    <!--syllabus--><br>
+    <div class="md-3"><b><u><h5>syllabus</h5></b></u></div>
+    <div class="row">
+        <div class="col-8">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item 1">
+              <h2 class="accordion-header 1" id="introduction">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  INTRODUCTION
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body1"><ol>
+                  <li>What is Python</li>
+                  <li>Why Pyhon </li>
+                </ol></div>
+              </div>
+            </div>
+            <div class="accordion-item 2">
+              <h2 class="accordion-header 2" id="ds">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Python Objects and Data Structures
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body2">
+                  <ol>
+                    <li>Introduction to Python Data Types</li>
+                    <li>Python Numbers</li>
+                    <li>Introduction to Strings</li>
+                    <li>Indexing and Slicing with Strings</li>
+                    <li> Tuples and Dictionaries in Python</li>
+                    <li>Boolean in Python</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item 3">
+              <h2 class="accordion-header 3" id="statements">
+                <button class="accordion-button collapsed 3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Python Statements
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse 3" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body 3">
+                  <ol>
+                    <li>If Elif and Else Statements in Python</li>
+                    <li>For Loops in Python</li>
+                    <li>While Loops in Python</li>
+                    <li>Operators in Python</li>
+                    <li>List Comprehensions in Python</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--accordian end-->
+        <div class="col-4">
+          <b><h5 style="text-align: left;">Prerequisites</h5></b>
+          <p> Anyone with a basic understanding of Programming terminologies can learn Python Language. There is no specific pre-requisite for taking up this Python training. </p>
+        </div>
+    </div><br><br>
+    <!--details-->
+    <div class="row">
+        <div class="col-8">
+          <b><h5 style="text-align: left;">Description</h5></b>
+          <p>Just updated for 2023! It's time to become a modern and complete Python developer! Join a live online community of over 900,000+ developers and a course taught by an industry expert that has actually worked both in Silicon Valley and Toronto. Graduates of Andrei’s courses are now working at Google, Tesla, Amazon, Apple, IBM, JP Morgan, Meta, + other top tech companies. By the end of this course, you will be a complete Python developer that can get hired at large companies. We are going to use Python to work with Email, Text Messages, CSV files, PDF files, Image Files, Data Visualizations, build our own machine learning model and perform Image detection. </p>      
+        </div>
+        <div class="col-4">
+            <b><h5 style="text-align: left;">Who this course is for</h5></b>
+            <ul>
+              <li>Anyone who wants to master Python 3</li>
+              <li>Anyone who wants to learn to code</li>
+              <li>Anyone looking to level up their skills and master a new programming language</li>
+              <li>Anyone who wants to get into: Web Development, Machine Learning, Data Science and other hot job markets</li>
+            </ul>
+       </div>
+    </div><br>
+    <!--faculty-->
+    <div class="row">
+        <div class="col-8">
+            <h5><b style="text-align:center;"> Faculty Details.</b></h5>
+            <div class="card mb-auto" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="760_x_540_amsom_faculty.1400x0.webp" class="img-fluid rounded-start" alt="dbms">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">GOPAL GUPTA</h5> 
+                      <p class="card-text">Gopal sir is the instructor of some of the highest rated programming and technical courses. His graduates have moved on to work for some of the biggest tech companies around the world like Apple, Google, Tesla, Amazon, JP Morgan, IBM, UNIQLO etc. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div><br>
+        <!--Duration  details-->
+        <div class="col-4">
+            <h5><b style="text-align: left;">Duration details.</b></h5>
+            <ul>
+                <li>course duration = 4 weeks.</li>
+                <li>2 projects.</li>
+                <li>100 Lectures.</li>
+            </ul>
+        </div>
+    </div><br><br>
+    <!--objective-->
+    <div class="row">
+        <div class="col-8">
+            <h5><b style="text-align: right;">What you'll learn</b></h5>
+           <div class="row">
+            <div class="col-6">
+              <ul>
+                <li>Become a professional Python Developer and get hired</li>
+                <li>Learn Object Oriented Programming</li>
+                <li>Learn how to use Python in Web Development</li>
+                <li>Learn Function Programming</li>
+                <li>Learn Machine Learning with Python</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Learn to Test, Debug and Handle Errors in your Python programs</li>
+                <li>Learn best practices to write clean, performant, and bug free code</li>
+                <li>Use Python to build a Twitter bot</li>
+                <li>Use Python to send Emails and SMS</li>
+                <li>Learn to use Selenium and Python in Automation</li>
+              </ul>
+            </div>
+           </div>
+          </div><br>
+        <div class="col-4">
+            <h5><B style="text-align: left;">Requirements</B></h5>
+          <ul>
+            <li>A computer (Windows/Mac/Linux). That's it!</li>
+            <li>No prior knowledge of Python is required.</li>
+            <li>No previous programming experience is needed.</li>
+            <li>Prepare to fall in love with Python and programming!</li>
+          </ul>
+        </div>
+    </div><br><br>
+    <!--footer-->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <h6><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAb1JREFUSEvllktOBDEMRGtuAicBDgICLgKchM9F+GzZsgdOAnojG5m000l3Fi1EpFHP9MRVdtlxvNNGa7cRr/4E8YEkPq311NrA/62IryUdSTruAbM9H/a8l4R9umrEEN2GCB3Mn3N+RCfZfyJpYlcjfjdSZLuR1CWfeePpwHGcgPSw9DQjxuDcyPB26Tq1FL6YapDfSbqIQBmxR4uXPdJGPEgf7AVE2D9mUWfEX2ZYSwNSoghFB/CnRcT3M0kUFevSSAlkIncJDigbyWkmM1V6lWgPsFcxToH7JunV8MAF76dWSmLygTQZcSSl4DwNRA4Zi/flEQIP3FXErgTgvwCM0B3GGXIbT8EQsUc7qc4gu5+GMuohYgclGsizVUvTEHFqXLCTZxwsVRki3kzqWFyZ3C5zVnxDEQPoUvIdOZ9Db/aznR0n74Szx2mugXjHyhpI7QzzPm3Btc6V3ighQqSlceAMkaNAra+nLTjrxz0V3HtjeXqavRpAr+Bav+4lZZ8H0XUtIh8GPNcMAhBiu3gQcEMn5/fI6FP27r1ic8NevHeXDHvu6Kphr8xj72iLXdd81hpvlxTSor3/j/gbIXGOHxGm6M4AAAAASUVORK5CYII="/><a href="https://www.instagram.com/" style="color: black;">instagram</a></h6>
+          <h6><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAQ1JREFUSEvtl+0NwjAMRK+bwCawCUwCTAJMQjeBTUBPipEJrdS07ocQlvhBAL/c2XFDpZmimomrRYFXknhFRp0na1L8jCSmXA9Ja583B28k3UYAk3Ir6a28C5jdRlhfBL5I2ifwWRKO9I0isHfkKOnQl1piNRaj1uqC4t0UYBjArwk2RG2v5hog8uOnRTXmy6gmUIzVNNwprdHtrPOeklj3NzViEZhDb2CrMRAajaDLv6ZSyykIBZuXKLUN2hrusFmLcLA5kZ+CfAqGg/1s92XAhftYivPkNung/cGhNf49q7tMLn9xYJjwYLHm8p8VWR01p5f7kMibJVKxn/uN9+rZrreRKltzLeqfxCSKXzkteB+qwvMWAAAAAElFTkSuQmCC"/><a href="https://in.linkedin.com/" style="color: black;">linked in</a></h6>
+        
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>crc department abes institute of technology
+                </h6>
+                <p>
+                  
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  courses
+                </h6>
+                <p>
+                  <a href="javamain.html" class="text-reset">java</a>
+                </p>
+                <p>
+                  <a href="react.html" class="text-reset">React</a>
+                </p>
+                <p>
+                  <a href="#" class="text-reset">python</a>
+                </p>
+              </div>
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" id="contact">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4" >Contact</h6>
+                <p><i class="fas fa-home me-3"></i> ghaziabad, uh 10012, 201008</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  abesit@example.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+     <!--javascript-->
+<script> 
+  function showTime(){
+  var date = new Date();
+  var h = date.getHours(); // 0 - 23
+  var m = date.getMinutes(); // 0 - 59
+  var s = date.getSeconds(); // 0 - 59
+  var session = "AM";
+  
+  if(h == 0){
+      h = 12;
+  }
+  
+  if(h > 12){
+      h = h - 12;
+      session = "PM";
+  }
+  
+  h = (h < 10) ? "0" + h : h;
+  m = (m < 10) ? "0" + m : m;
+  s = (s < 10) ? "0" + s : s;
+  
+  var time = h + ":" + m + ":" + s + " " + session;
+  document.getElementById("MyClockDisplay").innerText = time;
+  document.getElementById("MyClockDisplay").textContent = time;
+  
+  setTimeout(showTime, 1000);
+  
+}
+
+showTime(); 
+</script>
+
+    
+</div>
+</body>
+</html>
